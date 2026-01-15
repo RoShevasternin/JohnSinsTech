@@ -1,0 +1,5 @@
+alias: bardoKaosa0d
+pass:  lefriaus8
+
+policy: ---
+terms: ---

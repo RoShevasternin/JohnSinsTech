@@ -12,13 +12,13 @@ android {
         applicationId = "com.chekrun.roadrunicen"
         minSdk = 24
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0.1"
+        versionCode = 2
+        versionName = "1.0.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
         setProperty("archivesBaseName", "$applicationId-v$versionCode($versionName)")
-        resValue("string", "app_name", "Chicken Run Road 100x")
+        resValue("string", "app_name", "Eggsact Match")
         resValue(
             "string",
             "string_def",
@@ -65,7 +65,7 @@ dependencies {
 
     implementation("androidx.core:core-ktx:1.17.0")
     implementation("androidx.appcompat:appcompat:1.7.1")
-    implementation("androidx.activity:activity-ktx:1.12.1")
+    implementation("androidx.activity:activity-ktx:1.12.2")
     implementation("androidx.constraintlayout:constraintlayout:2.2.1")
     implementation("androidx.navigation:navigation-fragment-ktx:2.9.6")
     implementation("androidx.datastore:datastore-preferences:1.2.0")
