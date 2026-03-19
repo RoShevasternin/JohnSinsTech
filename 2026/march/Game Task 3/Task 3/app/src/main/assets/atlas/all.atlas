@@ -1,0 +1,89 @@
+all.png
+size: 916, 1406
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+arrows
+  rotate: false
+  xy: 1, 214
+  size: 914, 88
+  orig: 914, 88
+  offset: 0, 0
+  index: -1
+bag
+  rotate: false
+  xy: 379, 303
+  size: 337, 354
+  orig: 337, 354
+  offset: 0, 0
+  index: -1
+ball
+  rotate: false
+  xy: 357, 1
+  size: 212, 212
+  orig: 212, 212
+  offset: 0, 0
+  index: -1
+game_def
+  rotate: false
+  xy: 1, 658
+  size: 811, 186
+  orig: 811, 186
+  offset: 0, 0
+  index: -1
+game_press
+  rotate: false
+  xy: 1, 845
+  size: 811, 186
+  orig: 811, 186
+  offset: 0, 0
+  index: -1
+home_def
+  rotate: false
+  xy: 1, 1032
+  size: 811, 186
+  orig: 811, 186
+  offset: 0, 0
+  index: -1
+home_press
+  rotate: false
+  xy: 1, 1219
+  size: 811, 186
+  orig: 811, 186
+  offset: 0, 0
+  index: -1
+md
+  rotate: false
+  xy: 1, 1
+  size: 88, 93
+  orig: 88, 93
+  offset: 0, 0
+  index: -1
+mp
+  rotate: false
+  xy: 90, 1
+  size: 88, 93
+  orig: 88, 93
+  offset: 0, 0
+  index: -1
+panel
+  rotate: false
+  xy: 1, 303
+  size: 377, 228
+  orig: 377, 228
+  offset: 0, 0
+  index: -1
+sd
+  rotate: false
+  xy: 179, 1
+  size: 88, 93
+  orig: 88, 93
+  offset: 0, 0
+  index: -1
+sp
+  rotate: false
+  xy: 268, 1
+  size: 88, 93
+  orig: 88, 93
+  offset: 0, 0
+  index: -1
