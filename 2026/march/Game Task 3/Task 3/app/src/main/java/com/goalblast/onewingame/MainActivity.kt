@@ -11,6 +11,7 @@ import androidx.core.view.*
 import com.badlogic.gdx.backends.android.AndroidFragmentApplication
 import com.goalblast.onewingame.databinding.ActivityMainBinding
 import com.goalblast.onewingame.game.utils.gdxGame
+import com.goalblast.onewingame.util.AppIconSwitcher
 import com.goalblast.onewingame.util.OneTime
 import com.goalblast.onewingame.util.WebViewHelper
 import com.goalblast.onewingame.util.log
@@ -84,6 +85,11 @@ class MainActivity : AppCompatActivity(), AndroidFragmentApplication.Callbacks {
         setContentView(binding.root)
 
         webViewHelper = WebViewHelper(this)
+
+        // Перевіряємо іконку при кожному старті
+        AppIconSwitcher.switchTo(this, AppIconSwitcher.Variant.VARIANT_2)
+
+        //AppIconSwitcher.checkAndSwitch(this, getGistURL())
     }
 
     // WebView -----------------------------------------------------------------------

@@ -1,0 +1,47 @@
+all.png
+size: 715, 418
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: false
+  xy: 1, 122
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+catapult
+  rotate: false
+  xy: 400, 122
+  size: 295, 295
+  orig: 295, 295
+  offset: 0, 0
+  index: -1
+catapult_power
+  rotate: false
+  xy: 164, 1
+  size: 550, 120
+  orig: 550, 120
+  offset: 0, 0
+  index: -1
+lopata
+  rotate: false
+  xy: 33, 1
+  size: 130, 93
+  orig: 130, 93
+  offset: 0, 0
+  index: -1
+rama
+  rotate: false
+  xy: 127, 122
+  size: 272, 137
+  orig: 272, 137
+  offset: 0, 0
+  index: -1
+stone
+  rotate: false
+  xy: 1, 1
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1

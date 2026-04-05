@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.webkit.CookieManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
+import com.goalblast.onewingame.util.AppIconSwitcher
 import com.goalblast.onewingame.util.log
 
 private var counter = 0
