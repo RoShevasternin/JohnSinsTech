@@ -1,0 +1,47 @@
+all.png
+size: 1922, 595
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+box
+  rotate: false
+  xy: 280, 1
+  size: 186, 186
+  orig: 186, 186
+  offset: 0, 0
+  index: -1
+big_wheel
+  rotate: false
+  xy: 128, 1
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+control_panel
+  rotate: false
+  xy: 1, 476
+  size: 1920, 118
+  orig: 1920, 118
+  offset: 0, 0
+  index: -1
+fork
+  rotate: false
+  xy: 467, 1
+  size: 213, 186
+  orig: 213, 186
+  offset: 0, 0
+  index: -1
+mini_wheel
+  rotate: false
+  xy: 1, 1
+  size: 126, 126
+  orig: 126, 126
+  offset: 0, 0
+  index: -1
+tractor
+  rotate: false
+  xy: 681, 1
+  size: 526, 474
+  orig: 526, 474
+  offset: 0, 0
+  index: -1

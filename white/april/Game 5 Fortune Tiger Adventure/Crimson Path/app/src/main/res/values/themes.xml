@@ -1,0 +1,9 @@
+<resources>
+    <style name="Base.Theme.FortuneTigerAdventure" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/incas_background</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.FortuneTigerAdventure" parent="Base.Theme.FortuneTigerAdventure" />
+</resources>

@@ -1,0 +1,354 @@
+<resources>
+    <string name="app_name">Mythology Master</string>
+
+    <!--Names-->
+    <string-array name="names_monsters">
+        <item>Cerberus</item>
+        <item>Minotaur</item>
+        <item>Hydra</item>
+        <item>Chimera</item>
+        <item>Medusa</item>
+        <item>Scylla</item>
+        <item>Charybdis</item>
+        <item>Sphinx</item>
+        <item>Cyclops</item>
+        <item>Typhon</item>
+        <item>Sirens</item>
+        <item>Harpies</item>
+        <item>Griffin</item>
+        <item>Centaurs</item>
+        <item>Ladon</item>
+        <item>Calydonian Boar</item>
+    </string-array>
+    <string-array name="names_artefacts">
+        <item>Aegis</item>
+        <item>Pandora’s Box</item>
+        <item>Helm of Darkness</item>
+        <item>Bow of Heracles</item>
+        <item>Trident of Poseidon</item>
+        <item>Caduceus</item>
+        <item>Talaria</item>
+        <item>Shield of Achilles</item>
+        <item>Apple of Discord</item>
+        <item>Gorgon’s Head</item>
+        <item>Nemean Lion’s Skin</item>
+        <item>Sword of Perseus</item>
+        <item>Cornucopia</item>
+        <item>Lyre of Orpheus</item>
+        <item>Golden Fleece</item>
+    </string-array>
+    <string-array name="names_heroes">
+        <item>Hercules</item>
+        <item>Achilles</item>
+        <item>Perseus</item>
+        <item>Odysseus</item>
+        <item>Orpheus</item>
+        <item>Theseus</item>
+        <item>Jason</item>
+    </string-array>
+    <string-array name="names_gods">
+        <item>Artemis</item>
+        <item>Hades</item>
+        <item>Apollo</item>
+        <item>Ares</item>
+        <item>Athena</item>
+        <item>Aphrodite</item>
+        <item>Hecate</item>
+        <item>Hephaestus</item>
+        <item>Zeus</item>
+        <item>Poseidon</item>
+        <item>Dionysus</item>
+        <item>Hypnos</item>
+        <item>Pan</item>
+        <item>Persephone</item>
+        <item>Themis</item>
+        <item>Gaia</item>
+        <item>Demeter</item>
+        <item>Lyssa</item>
+        <item>Plutus</item>
+        <item>Chloris</item>
+        <item>Eros</item>
+        <item>Cybele</item>
+    </string-array>
+
+    <!--Effect-->
+    <string-array name="effects_monsters">
+        <item>The player must use a &quot;Hero Card&quot; (like Heracles) or a combination of &quot;Artifact Cards&quot; to defeat Cerberus.</item>
+        <item>The player must navigate the labyrinth or use a &quot;Hero Card&quot; (such as Theseus) to defeat the Minotaur.</item>
+        <item>The player must use a combination of &quot;Fire Cards&quot; or a &quot;Hero Card&quot; like Heracles to defeat the Hydra.</item>
+        <item>The player must use a combination of &quot;Elemental Cards&quot; (fire, air, and earth) or a &quot;Hero Card&quot; to defeat the Chimera.</item>
+        <item>The player must use a &quot;Mirror Artifact&quot; or a &quot;Hero Card&quot; (like Perseus) to defeat Medusa without being turned to stone.</item>
+        <item>The player must use a &quot;Ship Card&quot; or a combination of &quot;Defense Cards&quot; to survive Scylla’s attack.</item>
+        <item>The player must use a &quot;Ship Card&quot; or a &quot;Storm Card&quot; to avoid being swallowed by Charybdis.</item>
+        <item>The player must solve a riddle or use a &quot;Wisdom Card&quot; to defeat the Sphinx.</item>
+        <item>The player must use a &quot;Stealth Card&quot; or a &quot;Hero Card&quot; (like Odysseus) to outsmart the Cyclops.</item>
+        <item>The player must use a combination of &quot;Hero Cards&quot; and &quot;Elemental Cards&quot; to survive Typhon’s devastating attacks.</item>
+        <item>The player must use a &quot;Ship Card&quot; or a &quot;Wisdom Card&quot; to resist the Sirens\' call.</item>
+        <item>The player must use a &quot;Defense Card&quot; or a &quot;Hero Card&quot; to fend off the Harpies.</item>
+        <item>The player must use a combination of &quot;Flight Cards&quot; or a &quot;Hero Card&quot; to defeat the Griffin.</item>
+        <item>The player must use a &quot;Strength Card&quot; or a &quot;Hero Card&quot; (like Heracles) to defeat the Centaurs.</item>
+        <item>The player must use a &quot;Stealth Card&quot; or a &quot;Hero Card&quot; (like Heracles) to bypass or defeat Ladon.</item>
+        <item>The player must use a &quot;Hunter Card&quot; or a combination of &quot;Strength Cards&quot; to defeat the Calydonian Boar.</item>
+    </string-array>
+    <string-array name="effects_artefacts">
+        <item>Grants the player +3 Defense Tokens when equipped, and automatically blocks the first attack from any enemy.</item>
+        <item>When opened, the player draws 3 Curse Cards but also gains 4 Power Tokens.</item>
+        <item>Grants the player invisibility for 3 turns, allowing them to bypass enemies or steal an Artifact Card from another player.</item>
+        <item>Allows the player to deal 3 damage to any enemy at range, ignoring defensive effects.</item>
+        <item>Allows the player to control the seas, moving freely between water-based spaces and summoning storms that deal 2 damage to all nearby enemies.</item>
+        <item>Heals the player or an ally for 4 Health Points and removes one negative status effect.</item>
+        <item>Grants the player +2 Movement Tokens each turn and the ability to avoid traps on the board.</item>
+        <item>Grants the player +5 Defense Tokens and blocks all damage from the next enemy attack.</item>
+        <item>Allows the player to sow chaos among opponents, forcing them to discard one card at random and lose 1 Health Point each.</item>
+        <item>The player may use the Gorgon’s Head to turn any enemy to stone, immediately defeating them without combat.</item>
+        <item>Grants the player +4 Defense Tokens and immunity to damage for two turns.</item>
+        <item>Allows the player to deal 4 damage to an enemy and ignore their defense tokens.</item>
+        <item>Grants the player 3 Health Points and 3 Knowledge Tokens each time it is used.</item>
+        <item>Allows the player to calm any enemy, forcing them to skip their next attack.</item>
+        <item>The player may exchange the Golden Fleece to immediately draw 3 Hero Cards or 2 God Cards.</item>
+    </string-array>
+    <string-array name="effects_heroes">
+        <item>Hercules can defeat any monster by using his immense strength, ignoring up to 5 defense points of any enemy.</item>
+        <item>Achilles can deal double damage to any opponent when used in combat, and his defense is unbreakable unless struck by a special attack.</item>
+        <item>Perseus can defeat any petrifying enemy, such as Medusa, and gains the ability to draw 2 Artifact Cards after each victory.</item>
+        <item>Odysseus can outsmart any opponent, allowing the player to bypass traps and puzzles on the board. He also allows the player to reroll dice during strategic challenges.</item>
+        <item>Orpheus can charm any enemy into skipping their turn or ignoring combat altogether, making him a powerful non-violent asset.</item>
+        <item>Theseus can navigate mazes and defeat labyrinth-bound monsters (such as the Minotaur) with ease, allowing the player to move freely through complex areas.</item>
+        <item>Jason grants the player the ability to command allies, drawing one extra Hero Card when played and using team-based attacks to deal additional damage.</item>
+    </string-array>
+    <string-array name="effects_gods">
+        <item>Artemis grants the player the ability to strike enemies from afar, dealing 3 damage to any target, and allows rerolling for hunting or ranged challenges.</item>
+        <item>Hades allows the player to revive one fallen Hero or instantly defeat a monster from the underworld.</item>
+        <item>Apollo grants the player the power to heal 3 Health Points and deal 2 damage to an enemy through radiant energy.</item>
+        <item>Ares empowers the player with +3 Strength Tokens, allowing them to deal 5 damage to any enemy in combat.</item>
+        <item>Athena grants the player wisdom, allowing them to solve puzzles or avoid traps, while also adding +3 Knowledge Tokens.</item>
+        <item>Aphrodite charms any enemy, causing them to skip their next attack, and grants the player +2 Knowledge Tokens.</item>
+        <item>Hecate allows the player to cast powerful spells, granting +3 Magic Tokens and the ability to bypass a curse.</item>
+        <item>Hephaestus grants the player an enchanted weapon, dealing 4 additional damage in combat, and allows the creation of an Artifact Card.</item>
+        <item>Zeus strikes down any enemy with a bolt of lightning, dealing 6 damage and granting the player +3 Power Tokens.</item>
+        <item>Poseidon grants the player control over the seas, allowing them to move across water spaces and summon a tidal wave to deal 3 damage to all nearby enemies.</item>
+        <item>Dionysus grants the player 3 Health Points and the ability to confuse enemies, causing them to skip their next turn.</item>
+        <item>Hypnos puts an enemy to sleep, allowing the player to bypass combat and draw an extra card.</item>
+        <item>Pan grants the player +2 Movement Tokens and the ability to charm wild creatures, causing them to ignore the player.</item>
+        <item>Persephone allows the player to return from the underworld, healing 3 Health Points and drawing 2 Knowledge Tokens.</item>
+        <item>Themis grants the player +3 Knowledge Tokens and the ability to resolve any conflict diplomatically, avoiding combat.</item>
+        <item>Gaia heals the player for 5 Health Points and grants them control over the land, allowing them to move freely through nature-based spaces.</item>
+        <item>Demeter allows the player to harvest 4 Health Points and 2 Knowledge Tokens, restoring life and knowledge.</item>
+        <item>Lyssa grants the player the ability to drive an enemy into a frenzy, causing them to attack themselves and lose 2 Health Points.</item>
+        <item>Plutus grants the player 5 Power Tokens and allows them to instantly gain an Artifact Card.</item>
+        <item>Chloris heals the player for 3 Health Points and allows them to summon plant-based creatures or obstacles, blocking enemies for 2 turns.</item>
+        <item>Eros charms an enemy, causing them to skip their turn and granting the player +2 Knowledge Tokens.</item>
+        <item>Cybele grants the player +3 Power Tokens and the ability to summon a powerful beast to fight by their side.</item>
+    </string-array>
+
+    <!--Failure-->
+    <string-array name="failure_monsters">
+        <item>If the player fails, they are blocked for three turns.</item>
+        <item>If the player fails, they lose 3 Health Points and are forced to skip their next turn.</item>
+        <item>If the player fails, the Hydra regenerates two additional heads, and the player loses 2 Health Points per turn.</item>
+        <item>If the player fails, they suffer from the Chimera’s fire breath and lose 4 Health Points.</item>
+        <item>If the player fails, they are turned to stone for two turns, unable to act.</item>
+        <item>If the player fails, they lose 3 Health Points and must discard one &quot;Artifact Card.&quot;</item>
+        <item>If the player fails, they lose 2 Health Points and are pulled back 3 spaces.</item>
+        <item>If the player fails, they lose 2 Knowledge Tokens and must skip their next turn.</item>
+        <item>If the player fails, the Cyclops crushes them, and they lose 3 Health Points.</item>
+        <item>If the player fails, they lose 5 Health Points and are banished to a distant part of the board.</item>
+        <item>If the player fails, they are mesmerized and lose 3 Knowledge Tokens, as well as their next turn.</item>
+        <item>If the player fails, they lose 2 Health Points and must discard a random card.</item>
+        <item>If the player fails, they lose 3 Health Points and are knocked back two spaces.</item>
+        <item>If the player fails, they lose 2 Strength Tokens and must skip their next turn.</item>
+        <item>If the player fails, Ladon ensnares them, and they lose 2 Health Points per turn until they escape.</item>
+        <item>If the player fails, they are trampled, losing 4 Health Points.</item>
+    </string-array>
+    <string-array name="failure_artefacts">
+        <item>If stolen or lost, the player cannot block any attacks for two turns.</item>
+        <item>If opened carelessly, the player must endure the curses for three turns, losing 2 Health Points each turn.</item>
+        <item>If lost, the player is revealed and vulnerable to immediate attack.</item>
+        <item>If the bow is stolen or broken, the player cannot use ranged attacks for two turns.</item>
+        <item>If lost, the player cannot travel over water for 3 turns.</item>
+        <item>If stolen, the player cannot heal for 3 turns.</item>
+        <item>If lost, the player’s movement is halved for 2 turns.</item>
+        <item>If stolen or lost, the player cannot defend for 2 turns.</item>
+        <item>If misused, the player becomes a target, and all other players may focus their attacks on them for one turn.</item>
+        <item>If lost, the player loses 2 Health Points from its curse.</item>
+        <item>If stolen or lost, the player suffers 2 Health Points of damage immediately.</item>
+        <item>If lost or stolen, the player cannot deal damage for one turn.</item>
+        <item>If lost, the player cannot heal or gain tokens for 2 turns.</item>
+        <item>If the Lyre is lost or broken, the player loses 1 Knowledge Token and 1 Health Point.</item>
+        <item>If the player loses the Golden Fleece, they must discard 2 Knowledge Tokens.</item>
+    </string-array>
+    <string-array name="failure_heroes">
+        <item>If Hercules is defeated, the player loses 4 Strength Tokens and skips their next turn due to fatigue.</item>
+        <item>If Achilles is defeated by a critical hit (usually a &quot;Weak Spot&quot; attack), the player loses 3 Health Points.</item>
+        <item>If Perseus is defeated, the player loses 2 Health Points and one Artifact Card.</item>
+        <item>If Odysseus is defeated, the player must skip their next turn as they regroup.</item>
+        <item>If Orpheus is defeated, the player loses 2 Knowledge Tokens and must discard one card.</item>
+        <item>If Theseus is defeated, the player loses 2 Movement Tokens and skips their next turn.</item>
+        <item>If Jason is defeated, the player loses 1 Hero Card and 2 Strength Tokens.</item>
+    </string-array>
+    <string-array name="failure_gods">
+        <item>If Artemis is ignored, the player loses 2 Movement Tokens and 1 Strength Token.</item>
+        <item>If Hades favor is lost, the player must discard 2 Knowledge Tokens and skip a turn due to haunting nightmares.</item>
+        <item>If Apollo’s favor is lost, the player suffers a curse of blindness for one turn, unable to act.</item>
+        <item> If Ares is angered, the player must forfeit 2 Strength Tokens and discard one Hero Card due to infighting.</item>
+        <item>If Athena is displeased, the player loses 2 Knowledge Tokens and cannot solve challenges for one turn.</item>
+        <item>If Aphrodite’s charm fails, the player loses 1 Health Point and discards a random card.</item>
+        <item>If Hecate is displeased, the player is cursed, losing 2 Health Points and drawing a Curse Card.</item>
+        <item>If Hephaestus is ignored, the player loses 2 Strength Tokens and one Artifact Card due to a broken weapon.</item>
+        <item>If Zeus is angered, the player is struck by lightning, losing 4 Health Points.</item>
+        <item>If Poseidon’s favor is lost, the player cannot cross water spaces for 3 turns and loses 2 Health Points.</item>
+        <item>If Dionysus is displeased, the player suffers a debuff, losing 1 Health Point and drawing a random Curse Card.</item>
+        <item>If Hypnos fails, the player loses 2 Knowledge Tokens and skips their next turn.</item>
+        <item>If Pan’s charm fails, the player loses 1 Health Point and 1 Movement Token.</item>
+        <item>If Persephone is ignored, the player is stuck in the underworld for 2 turns, unable to act.</item>
+        <item>If Themis is ignored, the player loses 2 Knowledge Tokens and must face additional challenges.</item>
+        <item>If Gaia’s favor is lost, the player loses 3 Health Points and cannot use movement bonuses for 2 turns.</item>
+        <item>If Demeter is displeased, the player loses 2 Health Points and must discard one Artifact Card.</item>
+        <item>If Lyssa’s rage is misdirected, the player loses 2 Health Points and draws a Curse Card.</item>
+        <item>If Plutus is displeased, the player loses 2 Power Tokens and cannot draw an Artifact Card for 2 turns.</item>
+        <item>If Chloris is ignored, the player loses 2 Health Points and cannot use healing abilities for the next turn.</item>
+        <item>If Eros’ arrow misses, the player loses 1 Health Point and discards one card.</item>
+        <item>If Cybele is ignored, the player loses 2 Health Points and one Beast Card.</item>
+    </string-array>
+
+    <!--Victory-->
+    <string-array name="victory_monsters">
+        <item>If the player defeats Cerberus, they earn 5 Knowledge Tokens and can draw an additional Hero or God Card.</item>
+        <item>If the player defeats the Minotaur, they gain 3 Strength Tokens and may draw a Labyrinth Card to help in future challenges.</item>
+        <item>If the player defeats the Hydra, they earn 4 Fire Tokens and can draw an additional Hero or Artifact Card.</item>
+        <item>If the player defeats the Chimera, they gain 3 Elemental Tokens and may draw an additional Elemental Card.</item>
+        <item>If the player defeats Medusa, they earn 3 Artifact Tokens and may draw an Artifact or Hero Card.</item>
+        <item>If the player survives Scylla’s attack, they gain 2 Defense Tokens and may draw a Ship Card.</item>
+        <item>If the player survives Charybdis, they earn 3 Storm Tokens and may draw a Ship or Defense Card.</item>
+        <item>If the player solves the Sphinx’s riddle, they earn 4 Knowledge Tokens and may draw a Wisdom Card.</item>
+        <item>If the player outsmarts the Cyclops, they earn 2 Stealth Tokens and can draw a Hero Card.</item>
+        <item>If the player survives Typhon’s attacks, they gain 5 Elemental Tokens and may draw an additional Elemental or Hero Card.</item>
+        <item>If the player resists the Sirens call, they gain 3 Wisdom Tokens and may draw a Hero or Defense Card.</item>
+        <item>If the player fends off the Harpies, they earn 2 Defense Tokens and can draw a Hero or Defense Card.</item>
+        <item>If the player defeats the Griffin, they gain 4 Flight Tokens and may draw an Artifact or Hero Card.</item>
+        <item>If the player defeats the Centaurs, they earn 3 Strength Tokens and can draw an additional Hero or Strength Card.</item>
+        <item>If the player bypasses or defeats Ladon, they gain 3 Stealth Tokens and may draw an Artifact or Hero Card.</item>
+        <item>If the player defeats the Calydonian Boar, they earn 3 Strength Tokens and may draw a Hunter or Strength Card.</item>
+    </string-array>
+    <string-array name="victory_artefacts">
+        <item>If the player uses the Aegis, they gain 4 Defense Tokens and may draw an additional Defense or Hero Card.</item>
+        <item>If the player uses Pandora’s Box wisely, they gain 3 Elemental Tokens and can draw an Elemental or Artifact Card.</item>
+        <item>If the player uses the Helm of Darkness, they earn 4 Stealth Tokens and may draw an additional Stealth or Hero Card.</item>
+        <item>If the player uses the Bow of Heracles, they gain 3 Strength Tokens and may draw a Hero or Strength Card.</item>
+        <item>If the player wields the Trident of Poseidon, they earn 4 Elemental Tokens and can draw a Water or Elemental Card.</item>
+        <item>If the player uses the Caduceus, they gain 3 Knowledge Tokens and may draw a Healing or Hero Card.</item>
+        <item>If the player uses the Talaria, they gain 3 Flight Tokens and may draw an additional Flight or Hero Card.</item>
+        <item>If the player uses the Shield of Achilles, they earn 4 Defense Tokens and may draw an additional Hero or Defense Card.</item>
+        <item>If the player uses the Apple of Discord, they gain 3 Chaos Tokens and can draw an Elemental or Hero Card.</item>
+        <item>If the player uses the Gorgon’s Head, they earn 3 Petrification Tokens and may draw a Hero or Artifact Card.</item>
+        <item>If the player uses the Nemean Lion’s Skin, they gain 4 Strength Tokens and may draw a Strength or Hero Card.</item>
+        <item>If the player uses the Sword of Perseus, they earn 3 Strength Tokens and may draw a Hero or Strength Card.</item>
+        <item>If the player uses the Cornucopia, they gain 5 Resource Tokens and may draw an Artifact or Hero Card.</item>
+        <item>If the player uses the Lyre of Orpheus, they earn 4 Knowledge Tokens and may draw a Hero or Wisdom Card.</item>
+        <item>If the player retrieves the Golden Fleece, they earn 5 Knowledge Tokens and may draw a Hero or God Card.</item>
+    </string-array>
+    <string-array name="victory_heroes">
+        <item>When Hercules defeats a monster, the player earns 6 Strength Tokens and may draw an additional Artifact Card.</item>
+        <item>When Achilles triumphs in battle, the player gains 5 Strength Tokens and may reflect 1 damage back to another opponent.</item>
+        <item>When Perseus defeats an enemy, the player gains 4 Knowledge Tokens and may draw an additional Hero Card.</item>
+        <item>When Odysseus succeeds, the player gains 5 Knowledge Tokens and may move twice on the board.</item>
+        <item>When Orpheus succeeds, the player earns 4 Knowledge Tokens and may avoid combat for the next two turns.</item>
+        <item>When Theseus triumphs, the player earns 4 Strength Tokens and gains the ability to teleport to any location on the board.</item>
+        <item>When Jason succeeds, the player gains 3 Power Tokens and may draw an additional God or Artifact Card.</item>
+    </string-array>
+    <string-array name="victory_gods">
+        <item>Victory: If Artemis helps the player, they gain 3 Hunting Tokens and may draw a Hero or Beast Card.</item>
+        <item>Victory: If Hades supports the player, they gain 3 Underworld Tokens and may draw a Hero or Artifact Card.</item>
+        <item>Victory: If Apollo aids the player, they earn 4 Music Tokens and may draw an additional Wisdom or Hero Card.</item>
+        <item>Victory: If Ares fights with the player, they gain 5 Strength Tokens and may draw a Hero or Strength Card.</item>
+        <item>Victory: If Athena assists the player, they earn 4 Wisdom Tokens and can draw a Strategy or Hero Card.</item>
+        <item>Victory: If Aphrodite blesses the player, they gain 3 Charm Tokens and may draw a Hero or Artifact Card.</item>
+        <item>Victory: If Hecate supports the player, they earn 3 Magic Tokens and may draw a Spell or Hero Card.</item>
+        <item>Victory: If Hephaestus forges for the player, they gain 4 Crafting Tokens and may draw a Hero or Artifact Card.</item>
+        <item>Victory: If Zeus aids the player, they gain 5 Power Tokens and may draw an additional Hero or God Card.</item>
+        <item>Victory: If Poseidon helps the player, they earn 4 Water Tokens and may draw an Elemental or Hero Card.</item>
+        <item>Victory: If Dionysus aids the player, they gain 3 Celebration Tokens and may draw a Hero or Elemental Card.</item>
+        <item>Victory: If Hypnos aids the player, they gain 3 Sleep Tokens and may draw a Hero or Dream Card.</item>
+        <item>Victory: If Pan helps the player, they gain 3 Nature Tokens and may draw a Hero or Beast Card.</item>
+        <item>Victory: If Persephone assists the player, they gain 3 Underworld Tokens and may draw an Underworld or Hero Card.</item>
+        <item>Victory: If Themis supports the player, they earn 4 Justice Tokens and may draw a Hero or Wisdom Card.</item>
+        <item>Victory: If Gaia aids the player, they gain 5 Earth Tokens and may draw a Hero or Elemental Card.</item>
+        <item>Victory: If Demeter blesses the player, they earn 4 Harvest Tokens and may draw a Resource or Hero Card.</item>
+        <item>Victory: If Lyssa assists the player, they gain 4 Fury Tokens and may draw a Hero or Strength Card.</item>
+        <item>Victory: If Plutus aids the player, they gain 5 Wealth Tokens and may draw a Resource or Hero Card.</item>
+        <item>Victory: If Chloris helps the player, they gain 3 Strength Tokens and may draw a Beast Card.</item>
+        <item>Victory: If Eros charms the player’s enemy, they gain 4 Knowledge Tokens and may draw a Hero Card.</item>
+        <item>Victory: If Cybele’s beasts succeed in battle, the player gains 5 Power Tokens and may draw an additional Beast Card.</item>
+    </string-array>
+
+    <!--Description-->
+    <string-array name="description_monsters">
+        <item>Cerberus serves as both a formidable foe and a test of a player\'s strategy.</item>
+        <item>The Minotaur embodies the challenges of navigating one\'s fears and uncertainties.</item>
+        <item>The Hydra symbolizes the complexity of overcoming multiple challenges simultaneously.</item>
+        <item>The Chimera represents the fusion of different threats, requiring diverse strategies to defeat.</item>
+        <item>Medusa illustrates the danger of being paralyzed by one\'s fears and the need for courage.</item>
+        <item>Scylla signifies the inevitability of facing tough choices and sacrifices in the quest for victory.</item>
+        <item>Charybdis embodies the unpredictable nature of fate and the need for careful navigation.</item>
+        <item>The Sphinx presents a riddle that challenges the intellect and cunning of players.</item>
+        <item>The Cyclops symbolizes brute strength, challenging players to outsmart rather than overpower.</item>
+        <item>Typhon serves as a reminder of the chaos that can disrupt even the best-laid plans.</item>
+        <item>The Sirens illustrate the seductive nature of distractions that can lead to one\'s downfall.</item>
+        <item>The Harpies represent swift, chaotic threats that require quick thinking to overcome.</item>
+        <item>The Griffin embodies the balance between strength and wisdom, requiring both to defeat.</item>
+        <item>The Centaurs symbolize the struggle between civilization and primal instincts.</item>
+        <item>Ladon represents the trials of guarding something precious and the challenges of vigilance.</item>
+        <item>The Calydonian Boar showcases the ferocity of nature and the need for teamwork to overcome.</item>
+    </string-array>
+    <string-array name="description_heroes">
+        <item>Hercules serves as both a challenge and an opportunity for strategic players.</item>
+        <item>Achilles represents the power of valor and resilience in the face of adversity.</item>
+        <item>Perseus embodies bravery and cleverness in overcoming great challenges.</item>
+        <item>Odysseus showcases the importance of cunning and resourcefulness in achieving one\'s goals.</item>
+        <item>Orpheus illustrates the power of art and music in transforming destiny.</item>
+        <item>Theseus symbolizes heroism and the triumph of good over evil.</item>
+        <item>Jason embodies the spirit of adventure and the pursuit of glory.</item>
+    </string-array>
+    <string-array name="description_artefacts">
+        <item>The Aegis serves as a powerful shield, representing protection and divine favor.</item>
+        <item>Pandora’s Box symbolizes the unpredictable consequences of curiosity and temptation.</item>
+        <item>The Helm of Darkness grants invisibility, embodying the power of stealth and mystery.</item>
+        <item>The Bow of Heracles represents unmatched precision and the strength of a true hero.</item>
+        <item>The Trident of Poseidon commands the seas, symbolizing control over nature and power.</item>
+        <item>The Caduceus signifies balance and negotiation, embodying the duality of conflict and peace.</item>
+        <item>The Talaria grant swift travel, representing freedom and the pursuit of adventure.</item>
+        <item>The Shield of Achilles embodies impenetrable defense and the essence of heroism.</item>
+        <item>The Apple of Discord illustrates the chaos that can arise from envy and desire.</item>
+        <item>The Gorgon’s Head serves as a weapon of petrification, symbolizing the power to instill fear.</item>
+        <item>The Nemean Lion’s Skin represents invulnerability, showcasing the strength found in overcoming adversity.</item>
+        <item>The Sword of Perseus symbolizes courage and the triumph of the hero over monstrous foes.</item>
+        <item>The Cornucopia signifies abundance and the prosperity that comes from generosity.</item>
+        <item>The Lyre of Orpheus illustrates the transformative power of music and art.</item>
+        <item>The Golden Fleece embodies the quest for glory and the rewards of bravery.</item>
+    </string-array>
+    <string-array name="description_gods">
+        <item>Artemis embodies the spirit of independence and the connection to nature.</item>
+        <item>Hades represents the mystery of the underworld and the inevitability of fate.</item>
+        <item>Apollo symbolizes enlightenment, arts, and the pursuit of knowledge.</item>
+        <item>Ares embodies the chaos of war and the passion of conflict.</item>
+        <item>Athena signifies wisdom, strategy, and the strength found in intelligence.</item>
+        <item>Aphrodite represents love, beauty, and the complexities of human relationships.</item>
+        <item>Hecate embodies magic, mystery, and the power of transformation.</item>
+        <item>Hephaestus symbolizes craftsmanship, creativity, and the art of forging.</item>
+        <item>Zeus represents authority, justice, and the ruler of the gods.</item>
+        <item>Poseidon embodies the power of the sea and the unpredictable nature of water.</item>
+        <item>Dionysus symbolizes the joy of life, celebration, and the duality of pleasure and chaos.</item>
+        <item>Hypnos represents the tranquility of sleep and the escape from reality.</item>
+        <item>Pan embodies the spirit of the wild and the joy of nature.</item>
+        <item>Persephone symbolizes the cycle of life and death, and the balance of seasons.</item>
+        <item>Themis represents justice, order, and the natural laws of the universe.</item>
+        <item>Gaia embodies the earth and the nurturing aspects of nature.</item>
+        <item>Demeter signifies agriculture, nourishment, and the importance of fertility.</item>
+        <item>Lyssa symbolizes madness and the uncontrollable forces of nature.</item>
+        <item>Plutus represents wealth and the blessings of prosperity.</item>
+        <item>Chloris embodies the beauty of flowers and the renewal of life.</item>
+        <item>Eros symbolizes desire, love, and the connection between individuals.</item>
+        <item>Cybele represents the nurturing aspects of motherhood and the protection of nature.</item>
+    </string-array>
+
+</resources>

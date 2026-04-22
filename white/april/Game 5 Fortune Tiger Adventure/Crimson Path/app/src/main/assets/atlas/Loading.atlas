@@ -1,0 +1,33 @@
+Loading.png
+size: 949, 1293
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aca_background
+  rotate: false
+  xy: 1, 1
+  size: 947, 143
+  orig: 947, 143
+  offset: 0, 0
+  index: -1
+aca_loading
+  rotate: false
+  xy: 1, 145
+  size: 453, 129
+  orig: 453, 129
+  offset: 0, 0
+  index: -1
+aca_progress
+  rotate: false
+  xy: 1, 275
+  size: 886, 87
+  orig: 886, 87
+  offset: 0, 0
+  index: -1
+aca_tiger
+  rotate: false
+  xy: 1, 363
+  size: 768, 929
+  orig: 768, 929
+  offset: 0, 0
+  index: -1

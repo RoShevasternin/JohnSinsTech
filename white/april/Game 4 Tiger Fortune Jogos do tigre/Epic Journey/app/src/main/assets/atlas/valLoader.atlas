@@ -1,0 +1,40 @@
+valLoader.png
+size: 1011, 1568
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+background
+  rotate: false
+  xy: 1, 1
+  size: 954, 110
+  orig: 954, 110
+  offset: 0, 0
+  index: -1
+progress
+  rotate: false
+  xy: 1, 112
+  size: 930, 87
+  orig: 930, 87
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1, 200
+  size: 778, 78
+  orig: 778, 78
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 780, 200
+  size: 230, 43
+  orig: 230, 43
+  offset: 0, 0
+  index: -1
+tigrula
+  rotate: false
+  xy: 1, 279
+  size: 890, 1288
+  orig: 890, 1288
+  offset: 0, 0
+  index: -1
